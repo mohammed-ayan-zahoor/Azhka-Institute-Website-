@@ -4,7 +4,7 @@ export default function Stats() {
   const stats = [
     { number: '50+', label: 'Courses', icon: <GraduationCap className="w-12 h-12 text-[#1FB6C9]" /> },
     { number: '8', label: 'Instructors', icon: <UserCheck className="w-12 h-12 text-[#1FB6C9]" /> },
-    { number: '1000+', label: 'Students Trained', icon: <Users className="w-12 h-12 text-[#1FB6C9]" /> },
+    { number: '250+', label: 'Students Trained', icon: <Users className="w-12 h-12 text-[#1FB6C9]" /> },
     { number: '2+', label: 'Years Experience', icon: <Trophy className="w-12 h-12 text-[#1FB6C9]" /> },
   ];
 
