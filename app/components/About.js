@@ -62,7 +62,7 @@ export default function About() {
               {/* Credibility Anchors */}
               <div className="flex items-center gap-6 py-4 border-t border-b border-gray-100">
                 <div className="flex items-center gap-2">
-                  <span className="font-bold text-gray-900">1000+</span>
+                  <span className="font-bold text-gray-900">250+</span>
                   <span className="text-sm text-gray-500">Students <br />Trained</span>
                 </div>
                 <div className="w-px h-8 bg-gray-200"></div>
