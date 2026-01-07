@@ -6,7 +6,7 @@ export default function Instructors() {
       name: 'Chirag Kazi',
       role: 'Managing Director',
       why: 'Incharge of overall institute management',
-      experience: '10 Years Experience',
+      experience: '30+ Years Experience',
       signal: 'Incharge of overall institute management',
       image: '/instructor10.png',
     },
