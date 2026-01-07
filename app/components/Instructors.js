@@ -59,7 +59,7 @@ export default function Instructors() {
       why: 'Ensures comprehensive syllabus coverage',
       experience: '8 Years Teaching Experience',
       signal: 'Focuses on exam preparation',
-      image: '/instructor6.jpg',
+      image: '/instructor9.jpg',
     }
   ];
 
@@ -78,7 +78,7 @@ export default function Instructors() {
       why: 'Provides additional help for student queries',
       experience: 'Student Support Specialist',
       signal: 'Available for doubt solving',
-      image: '/instructor8.jpg',
+      image: '/instructor1.jpg',
     },
     {
       name: 'Mohammed Ayan',
