@@ -3,20 +3,20 @@ import Image from 'next/image';
 export default function Instructors() {
   const technicalLeaders = [
     {
-      name: 'Shaikh Zahoor Rasheed',
-      role: 'Artificial Intelligence & Advanced Computing',
-      why: 'Specializes in explaining complex topics in simple, practical ways',
-      experience: '30+ Years Teaching',
-      signal: 'Mentors final year projects',
-      image: '/instructor3.jpg',
-    },
-    {
       name: 'Chirag Kazi',
       role: 'Managing Director',
       why: 'Incharge of overall institute management',
       experience: '10 Years Experience',
       signal: 'Incharge of overall institute management',
       image: '/instructor10.png',
+    },
+    {
+      name: 'Shaikh Zahoor Rasheed',
+      role: 'Artificial Intelligence & Advanced Computing',
+      why: 'Specializes in explaining complex topics in simple, practical ways',
+      experience: '30+ Years Teaching',
+      signal: 'Mentors final year projects',
+      image: '/instructor3.jpg',
     },
     {
       name: 'Rahul Sonawane',
