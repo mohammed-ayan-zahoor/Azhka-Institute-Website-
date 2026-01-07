@@ -6,9 +6,17 @@ export default function Instructors() {
       name: 'Shaikh Zahoor Rasheed',
       role: 'Artificial Intelligence & Advanced Computing',
       why: 'Specializes in explaining complex topics in simple, practical ways',
-      experience: '30+ Years Teaching & Industry Exposure',
+      experience: '30+ Years Teaching',
       signal: 'Mentors final year projects',
       image: '/instructor3.jpg',
+    },
+    {
+      name: 'Chirag Kazi',
+      role: 'Managing Director',
+      why: 'Incharge of overall institute management',
+      experience: '10 Years Experience',
+      signal: 'Incharge of overall institute management',
+      image: '/instructor10.jpg',
     },
     {
       name: 'Rahul Sonawane',
@@ -35,7 +43,7 @@ export default function Instructors() {
       why: 'Focuses on building strong programming logic',
       experience: 'Hands-on Technical Trainer',
       signal: 'Leads practical lab sessions',
-      image: '/instructor2.jpg',
+      image: '/instructor2.png',
     },
     {
       name: 'Shagufta Pathan',
@@ -71,6 +79,14 @@ export default function Instructors() {
       experience: 'Student Support Specialist',
       signal: 'Available for doubt solving',
       image: '/instructor8.jpg',
+    },
+    {
+      name: 'Mohammed Ayan',
+      role: 'Programming Instructor',
+      why: 'Ensures comprehensive syllabus coverage',
+      experience: '2 Years Teaching Experience',
+      signal: 'Focuses on exam preparation',
+      image: '/instructor9.jpg',
     }
   ];
 
@@ -129,7 +145,7 @@ export default function Instructors() {
             <span className="w-8 h-1 bg-[#1FB6C9] rounded-full"></span>
             Advanced & Specialized Faculty
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {technicalLeaders.map((instructor, index) => (
               <InstructorCard key={index} instructor={instructor} />
             ))}
