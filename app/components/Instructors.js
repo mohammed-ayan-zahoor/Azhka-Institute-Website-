@@ -16,7 +16,7 @@ export default function Instructors() {
       why: 'Incharge of overall institute management',
       experience: '10 Years Experience',
       signal: 'Incharge of overall institute management',
-      image: '/instructor10.jpg',
+      image: '/instructor10.png',
     },
     {
       name: 'Rahul Sonawane',
