@@ -61,16 +61,17 @@ export default function About() {
                   <button
                     key={idx}
                     onClick={() => setCurrentSlide(idx)}
+                    aria-label={`Go to slide ${idx + 1}`}
+                    aria-current={currentSlide === idx ? 'true' : 'false'}
                     className={`w-3 h-3 rounded-full transition-all ${currentSlide === idx ? 'bg-[#1FB6C9] w-8' : 'bg-white/50 hover:bg-white'}`}
                   />
                 ))}
               </div>
             </div>
 
-            <p className="text-sm text-gray-400 italic text-center uppercase tracking-[0.2em] py-6 bg-white">
+            <p className="text-sm text-gray-400 italic text-center uppercase tracking-[0.2em] py-6 bg-white" aria-live="polite" aria-atomic="true">
               Practical Lab Environment • Image {currentSlide + 1} of 3
-            </p>
-          </div>
+            </p>          </div>
 
           {/* Bottom - Info (Left and Right) */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start text-gray-600 text-lg leading-relaxed">

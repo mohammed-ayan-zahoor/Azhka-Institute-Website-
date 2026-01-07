@@ -11,16 +11,36 @@ export default function Contact() {
     message: '',
   });
 
-  const handleSubmit = (e) => {
+  const [status, setStatus] = useState('idle'); // idle, loading, success, error
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for requesting a call back! We will contact you soon.');
-    setFormData({ name: '', email: '', phone: '', course: '', message: '' });
+    setStatus('loading');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', phone: '', course: '', message: '' });
+        // Reset success message after 5 seconds
+        setTimeout(() => setStatus('idle'), 5000);
+      } else {
+        setStatus('error');
+      }
+    } catch (error) {
+      console.error('Submission error:', error);
+      setStatus('error');
+    }
   };
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    if (status === 'error') setStatus('idle');
   };
 
   return (
@@ -109,10 +129,28 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-[#1FB6C9] text-white py-4 rounded-xl hover:bg-[#0A4C59] transition-all transform hover:-translate-y-1 font-bold text-lg shadow-lg flex items-center justify-center gap-2"
+                disabled={status === 'loading'}
+                className={`w-full text-white py-4 rounded-xl transition-all transform hover:-translate-y-1 font-bold text-lg shadow-lg flex items-center justify-center gap-2 ${status === 'loading' ? 'bg-gray-400 cursor-not-allowed' :
+                    status === 'success' ? 'bg-green-500' : 'bg-[#1FB6C9] hover:bg-[#0A4C59]'
+                  }`}
               >
-                Request a Call Back <ArrowRight className="w-5 h-5" />
+                {status === 'loading' ? 'Sending...' :
+                  status === 'success' ? 'Sent Successfully!' :
+                    'Request a Call Back'}
+                {status !== 'loading' && <ArrowRight className="w-5 h-5" />}
               </button>
+
+              {status === 'success' && (
+                <div className="bg-green-50 text-green-700 p-4 rounded-lg text-sm font-medium border border-green-100 text-center">
+                  Thank you! We've received your inquiry and will call you back soon.
+                </div>
+              )}
+
+              {status === 'error' && (
+                <div className="bg-red-50 text-red-700 p-4 rounded-lg text-sm font-medium border border-red-100 text-center">
+                  Something went wrong. Please try calling us directly instead.
+                </div>
+              )}
 
               <p className="text-center text-xs text-gray-400 mt-4">
                 We respect your privacy. No spam, guaranteed.
