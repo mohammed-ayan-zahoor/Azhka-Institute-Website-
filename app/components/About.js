@@ -6,9 +6,9 @@ import Link from 'next/link';
 export default function About() {
   const [currentSlide, setCurrentSlide] = useState(1); // Start with Center image
   const images = [
-    { src: '/Lab-Left.jpg', alt: 'Azhka Lab Left View' },
-    { src: '/Lab-Center.jpg', alt: 'Azhka Lab Center View' },
-    { src: '/Lab-Right.jpg', alt: 'Azhka Lab Right View' },
+    { src: '/Lab-Left.jpg', alt: 'Inside Azhka Institute Lab - Left Perspective showing high-end computer stations' },
+    { src: '/Lab-Center.jpg', alt: 'Main Computer Lab at Azhka Institute Dhule - Modern training environment' },
+    { src: '/Lab-Right.jpg', alt: 'Azhka Institute Computer Lab - Right Perspective for practical coding sessions' },
   ];
 
   const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % images.length);

@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
             Why Students Choose <span className="text-[#1FB6C9]">Azhka</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We don't just teach courses. We build careers.
+            We don't just teach courses. We build careers by combining high-end tech skills with professional communication and memory mastery.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ export default function WhyChooseUs() {
             <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/classroom.png"
-                alt="Azhka Institute Classroom"
+                alt="Modern computer classroom at Azhka Institute Dhule for practical coding and software training"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"
               />

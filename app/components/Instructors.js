@@ -20,10 +20,10 @@ export default function Instructors() {
     },
     {
       name: 'Rahul Sonawane',
-      role: 'English Communication Specialist',
-      why: 'Helps students build confidence in professional speaking',
+      role: 'English & Mnemonic Science Expert',
+      why: 'Specializes in professional communication and advanced memory training techniques',
       experience: '18 Years Professional Training',
-      signal: 'Focuses on interview preparation',
+      signal: 'Expert in Mnemonic Science',
       image: '/instructor7.jpg',
     }
   ];

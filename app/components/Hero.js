@@ -9,14 +9,14 @@ export default function Hero() {
           {/* Left Content */}
           <div className="flex-1 space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.1]">
-              Empowering Skills for the{' '}
-              <span className="text-[#1FB6C9]">Digital Future</span>
+              Empowering Digital &{' '}
+              <span className="text-[#1FB6C9]">Cognitive Excellence</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
-              Professional Computer Courses That Build Careers
+              Computer Courses • English Speaking • Mnemonic Science
             </p>
             <p className="text-base text-gray-500 max-w-xl">
-              From basic computing to advanced web development — learn skills that matter.
+              Master the technology for your career and the mental skills for your growth. Join the most advanced learning hub in Dhule.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 pt-6">
               <Link
@@ -39,7 +39,7 @@ export default function Hero() {
             <div className="relative w-full aspect-[4/3] md:aspect-square lg:aspect-video">
               <Image
                 src="/hero-image.png"
-                alt="Students learning"
+                alt="Professional computer training and coding sessions at Azhka Institute Dhule"
                 fill
                 className="object-cover rounded-2xl shadow-2xl"
                 priority

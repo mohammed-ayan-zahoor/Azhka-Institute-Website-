@@ -48,6 +48,36 @@ export default function Courses() {
     },
   ];
 
+  const skillDevelopment = [
+    {
+      name: 'English Speaking',
+      fullName: 'Professional English Communication',
+      description: 'Master the art of fluent English communication. Focus on grammar, vocabulary, public speaking, and confidence building.',
+      duration: '3 Months',
+      level: 'All Levels',
+      badge: '🗣️ Fluency Focus',
+      badgeColor: 'bg-purple-100 text-purple-800',
+    },
+    {
+      name: 'Mnemonic Science',
+      fullName: 'Advanced Memory & Recall Science',
+      description: 'Unlock the potential of your brain. Learn advanced mnemonic techniques to memorize vast amounts of data with ease.',
+      duration: '2 Months',
+      level: 'Advanced',
+      badge: '🧠 Brain Power',
+      badgeColor: 'bg-indigo-100 text-indigo-800',
+    },
+    {
+      name: 'Memory Training',
+      fullName: 'Student Memory Mastery Workshop',
+      description: 'Specifically designed for students. Master techniques for rapid info recall, exam success, and stress-free learning.',
+      duration: '1 Month',
+      level: 'Students',
+      badge: '🎓 Exam Ready',
+      badgeColor: 'bg-teal-100 text-teal-800',
+    },
+  ];
+
   const CourseCard = ({ course }) => (
     <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 border border-gray-100 relative overflow-hidden group">
       {course.badge && (
@@ -89,40 +119,56 @@ export default function Courses() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Our Courses
+            Our Learning Paths
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Choose from our diverse range of professional computer courses designed to boost your career
+            From digital mastery to cognitive excellence — choose the track that transforms your future.
           </p>
         </div>
 
-        {/* Starter Lane */}
-        <div className="mb-20">
-          <div className="flex items-center gap-4 mb-10">
-            <div className="h-10 w-1 bg-green-500 rounded-full"></div>
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900">Starter Courses</h3>
-              <p className="text-gray-500">Perfect for building a strong digital foundation</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {starterCourses.map((course, index) => (
-              <CourseCard key={index} course={course} />
-            ))}
-          </div>
-        </div>
-
         {/* Career Lane */}
-        <div>
+        <div className="mb-20">
           <div className="flex items-center gap-4 mb-10">
             <div className="h-10 w-1 bg-[#1FB6C9] rounded-full"></div>
             <div>
-              <h3 className="text-2xl font-bold text-gray-900">Career Tracks</h3>
+              <h3 className="text-2xl font-bold text-gray-900">Career Tracks (Computer)</h3>
               <p className="text-gray-500">Professional programs designed for job readiness</p>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {careerTracks.map((course, index) => (
+              <CourseCard key={index} course={course} />
+            ))}
+          </div>
+        </div>
+
+        {/* Skill Lane */}
+        <div className="mb-20">
+          <div className="flex items-center gap-4 mb-10">
+            <div className="h-10 w-1 bg-purple-500 rounded-full"></div>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900">Cognitive & Communication Tracks</h3>
+              <p className="text-gray-500">Master the soft and mental skills that set you apart</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {skillDevelopment.map((course, index) => (
+              <CourseCard key={index} course={course} />
+            ))}
+          </div>
+        </div>
+
+        {/* Starter Lane */}
+        <div>
+          <div className="flex items-center gap-4 mb-10">
+            <div className="h-10 w-1 bg-green-500 rounded-full"></div>
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900">Foundational Computer Courses</h3>
+              <p className="text-gray-500">Perfect for building a strong digital foundation</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {starterCourses.map((course, index) => (
               <CourseCard key={index} course={course} />
             ))}
           </div>
