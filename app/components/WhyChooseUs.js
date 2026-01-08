@@ -102,7 +102,7 @@ export default function WhyChooseUs() {
             <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/classroom.png"
-                alt="Modern computer classroom at Azhka Institute Dhule for practical coding and software training"
+                alt="Computer classroom at Azhka Institute Dhule for coding training"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"
               />

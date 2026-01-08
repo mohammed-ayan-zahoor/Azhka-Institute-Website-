@@ -70,7 +70,7 @@ export default function Courses() {
     {
       name: 'Memory Training',
       fullName: 'Student Memory Mastery Workshop',
-      description: 'Specifically designed for students. Master techniques for rapid info recall, exam success, and stress-free learning.',
+      description: 'Specifically designed for students. Master techniques for rapid information recall, exam success, and stress-free learning.',
       duration: '1 Month',
       level: 'Students',
       badge: '🎓 Exam Ready',

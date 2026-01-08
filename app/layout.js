@@ -4,7 +4,6 @@ import "./globals.css";
 export const metadata = {
   title: "Azhka Institute - Computer, English Speaking & Memory Science Dhule",
   description: "Azhka Institute: Dhule's premier hub for Computer Courses (DCA, ADCA), Professional English Speaking classes, and revolutionary Mnemonic Science & Memory Training. Transform your digital and cognitive skills.",
-  keywords: ["Computer Institute Dhule", "English Speaking Classes Dhule", "Mnemonic Science India", "Memory Training Workshop Dhule", "Best Computer Classes Dhule", "Soft Skills Training Dhule", "Azhka Institute"],
   authors: [{ name: "Azhka Institute" }],
   metadataBase: new URL('https://azhka.in'),
   alternates: {
@@ -72,17 +71,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <html lang="en">
-        <body className="antialiased">
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-          />
-          {children}
-          <Analytics />
-        </body>
-      </html>
       <body className="antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
         <Analytics />
       </body>
