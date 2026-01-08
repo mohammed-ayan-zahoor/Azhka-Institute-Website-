@@ -1,7 +1,7 @@
-const LAST_MODIFIED = new Date('2024-01-08'); // Stable build date
+const LAST_MODIFIED = new Date('2026-01-08');
 
 export default function sitemap() {
-    const baseUrl = 'https://azhka.in';
+    const baseUrl = process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://azhka.in';
 
     return [
         {

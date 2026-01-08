@@ -87,7 +87,7 @@ export default function Courses() {
       )}
 
       <div className="flex items-start justify-between mb-4 mt-2">
-        <h3 className="text-3xl font-extrabold text-gray-900 group-hover:text-[#1FB6C9] transition-colors">
+        <h3 className="text-3xl font-extrabold text-gray-900 group-hover:text-[#216BAC] transition-colors">
           {course.name}
         </h3>
       </div>
@@ -102,12 +102,12 @@ export default function Courses() {
 
       <div className="flex items-center justify-between pt-6 border-t border-gray-100">
         <div className="flex items-center text-gray-600 font-semibold">
-          <svg className="w-5 h-5 mr-2 text-[#1FB6C9]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5 mr-2 text-[#216BAC]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
           <span className="text-sm">{course.duration}</span>
         </div>
-        <button className="text-[#1FB6C9] hover:text-[#0A4C59] font-bold text-sm tracking-wide uppercase transition-colors">
+        <button className="text-[#216BAC] hover:text-[#0A4C59] font-bold text-sm tracking-wide uppercase transition-colors">
           View Details →
         </button>
       </div>
@@ -129,7 +129,7 @@ export default function Courses() {
         {/* Career Lane */}
         <div className="mb-20">
           <div className="flex items-center gap-4 mb-10">
-            <div className="h-10 w-1 bg-[#1FB6C9] rounded-full"></div>
+            <div className="h-10 w-1 bg-[#216BAC] rounded-full"></div>
             <div>
               <h3 className="text-2xl font-bold text-gray-900">Career Tracks (Computer)</h3>
               <p className="text-gray-500">Professional programs designed for job readiness</p>

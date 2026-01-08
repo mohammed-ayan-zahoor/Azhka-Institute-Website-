@@ -44,13 +44,13 @@ export default function About() {
               {/* Navigation Arrows */}
               <button
                 onClick={prevSlide}
-                className="absolute left-8 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-[#1FB6C9] p-3 rounded-full text-white backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100"
+                className="absolute left-8 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-[#216BAC] p-3 rounded-full text-white backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
               </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-8 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-[#1FB6C9] p-3 rounded-full text-white backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100"
+                className="absolute right-8 top-1/2 -translate-y-1/2 z-20 bg-black/30 hover:bg-[#216BAC] p-3 rounded-full text-white backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
               </button>
@@ -63,7 +63,7 @@ export default function About() {
                     onClick={() => setCurrentSlide(idx)}
                     aria-label={`Go to slide ${idx + 1}`}
                     aria-current={currentSlide === idx ? 'true' : 'false'}
-                    className={`w-3 h-3 rounded-full transition-all ${currentSlide === idx ? 'bg-[#1FB6C9] w-8' : 'bg-white/50 hover:bg-white'}`}
+                    className={`w-3 h-3 rounded-full transition-all ${currentSlide === idx ? 'bg-[#216BAC] w-8' : 'bg-white/50 hover:bg-white'}`}
                   />
                 ))}
               </div>
@@ -81,7 +81,7 @@ export default function About() {
                 About Azhka Institute
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed font-medium">
-                Azhka Institute was founded with a simple idea — to help students gain <span className="text-[#1FB6C9] font-bold">practical computer skills</span> that actually matter in real life and careers.
+                Azhka Institute was founded with a simple idea — to help students gain <span className="text-[#216BAC] font-bold">practical computer skills</span> that actually matter in real life and careers.
               </p>
               <p>
                 We focus on hands-on training, clear explanations, and industry-relevant courses so that students feel confident, not overwhelmed.
@@ -89,7 +89,7 @@ export default function About() {
 
               {/* Soft CTA Moved Here */}
               <div className="pt-4">
-                <Link href="#courses" className="text-[#1FB6C9] font-bold text-lg hover:text-[#0A4C59] flex items-center gap-2 transition-colors group">
+                <Link href="#courses" className="text-[#216BAC] font-bold text-lg hover:text-[#0A4C59] flex items-center gap-2 transition-colors group">
                   Explore Our Courses
                   <span className="transform group-hover:translate-x-1 transition-transform">→</span>
                 </Link>
@@ -99,9 +99,9 @@ export default function About() {
             {/* Right Info Part */}
             <div className="space-y-8">
               {/* What We Believe */}
-              <div className="bg-gray-50 p-8 rounded-2xl border-l-4 border-[#1FB6C9] shadow-sm">
+              <div className="bg-gray-50 p-8 rounded-2xl border-l-4 border-[#216BAC] shadow-sm">
                 <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-                  <span className="text-[#1FB6C9]">✦</span> What We Believe
+                  <span className="text-[#216BAC]">✦</span> What We Believe
                 </h3>
                 <ul className="space-y-4">
                   {[

@@ -6,7 +6,7 @@ A modern, professional website for Azhka Institute built with Next.js 15, JavaSc
 
 - **Modern Educational Theme**: Clean, trustworthy design focused on skills and education
 - **Color Scheme**: 
-  - Primary: Azhka Blue (#1FB6C9)
+  - Primary: Azhka Blue (#216BAC)
   - Dark Accent: Deep Teal (#0E5E6F)
   - Professional white and gray backgrounds
 - **Typography**: 
@@ -90,7 +90,7 @@ Edit the CSS variables in `app/globals.css`:
 
 ```css
 :root {
-  --azhka-blue: #1FB6C9;
+  --azhka-blue: #216BAC;
   --dark-teal: #0E5E6F;
   --text-primary: #111827;
   --text-secondary: #6B7280;

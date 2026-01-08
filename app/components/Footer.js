@@ -14,7 +14,7 @@ export default function Footer() {
               alt="Azhka Institute"
               width={160}
               height={40}
-              className="mb-4 brightness-0 invert"
+              className="h-{20} w-auto mb-4 brightness-0 invert"
             />
             <p className="text-gray-400 leading-relaxed">
               Empowering students with quality computer education and practical skills for a successful career in technology.
@@ -26,27 +26,27 @@ export default function Footer() {
             <h4 className="text-xl font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#home" className="text-gray-400 hover:text-[#1FB6C9] transition-colors">
+                <Link href="#home" className="text-gray-400 hover:text-[#216BAC] transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#courses" className="text-gray-400 hover:text-[#1FB6C9] transition-colors">
+                <Link href="#courses" className="text-gray-400 hover:text-[#216BAC] transition-colors">
                   Courses
                 </Link>
               </li>
               <li>
-                <Link href="#instructors" className="text-gray-400 hover:text-[#1FB6C9] transition-colors">
+                <Link href="#instructors" className="text-gray-400 hover:text-[#216BAC] transition-colors">
                   Instructors
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-gray-400 hover:text-[#1FB6C9] transition-colors">
+                <Link href="#about" className="text-gray-400 hover:text-[#216BAC] transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-gray-400 hover:text-[#1FB6C9] transition-colors">
+                <Link href="#contact" className="text-gray-400 hover:text-[#216BAC] transition-colors">
                   Contact
                 </Link>
               </li>
@@ -95,7 +95,7 @@ export default function Footer() {
                 href="https://www.instagram.com/azhkainstitute?igsh=MzJreHI4ZXpxZHlp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#1FB6C9] p-2 rounded-full hover:bg-[#0A4C59] transition-colors"
+                className="bg-[#216BAC] p-2 rounded-full hover:bg-[#0A4C59] transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
@@ -104,7 +104,7 @@ export default function Footer() {
                 href="https://www.youtube.com/@Azhka-technologies-institute"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#1FB6C9] p-2 rounded-full hover:bg-[#0A4C59] transition-colors"
+                className="bg-[#216BAC] p-2 rounded-full hover:bg-[#0A4C59] transition-colors"
                 aria-label="YouTube"
               >
                 <Youtube className="w-5 h-5" />

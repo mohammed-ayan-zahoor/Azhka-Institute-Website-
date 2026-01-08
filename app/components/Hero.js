@@ -10,7 +10,7 @@ export default function Hero() {
           <div className="flex-1 space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-[1.1]">
               Empowering Digital &{' '}
-              <span className="text-[#1FB6C9]">Cognitive Excellence</span>
+              <span className="text-[#216BAC]">Cognitive Excellence</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
               Computer Courses • English Speaking • Mnemonic Science
@@ -21,13 +21,13 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-6 pt-6">
               <Link
                 href="#courses"
-                className="bg-[#1FB6C9] text-white px-8 py-4 rounded-lg hover:bg-[#0A4C59] transition-colors font-semibold text-center text-lg"
+                className="bg-[#216BAC] text-white px-8 py-4 rounded-lg hover:bg-[#0A4C59] transition-colors font-semibold text-center text-lg"
               >
                 Explore Courses
               </Link>
               <Link
                 href="#contact"
-                className="border-2 border-[#1FB6C9] text-[#1FB6C9] px-8 py-4 rounded-lg hover:bg-[#1FB6C9] hover:text-white transition-colors font-semibold text-center text-lg"
+                className="border-2 border-[#216BAC] text-[#216BAC] px-8 py-4 rounded-lg hover:bg-[#216BAC] hover:text-white transition-colors font-semibold text-center text-lg"
               >
                 Contact Institute
               </Link>

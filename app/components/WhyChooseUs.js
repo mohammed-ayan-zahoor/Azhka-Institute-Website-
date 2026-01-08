@@ -10,12 +10,12 @@ export default function WhyChooseUs() {
         {
           title: 'Practical Training',
           description: 'Learn by doing. Every course includes hands-on labs and real project work — not just theory.',
-          icon: <Monitor className="w-6 h-6 text-[#1FB6C9]" />,
+          icon: <Monitor className="w-6 h-6 text-[#216BAC]" />,
         },
         {
           title: 'Career-Oriented Syllabus',
           description: 'Syllabus updated based on current job requirements and industry trends.',
-          icon: <Target className="w-6 h-6 text-[#1FB6C9]" />,
+          icon: <Target className="w-6 h-6 text-[#216BAC]" />,
           highlight: true,
         }
       ]
@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
         {
           title: 'Experienced Instructors',
           description: 'Trainers with real industry and teaching experience — not fresh graduates.',
-          icon: <UserCheck className="w-6 h-6 text-[#1FB6C9]" />,
+          icon: <UserCheck className="w-6 h-6 text-[#216BAC]" />,
         }
       ]
     },
@@ -36,12 +36,12 @@ export default function WhyChooseUs() {
         {
           title: 'Certification',
           description: 'Receive recognized certificates that add value to your resume.',
-          icon: <Award className="w-6 h-6 text-[#1FB6C9]" />,
+          icon: <Award className="w-6 h-6 text-[#216BAC]" />,
         },
         {
           title: 'Affordable Fees',
           description: 'Quality training at student-friendly fees, with flexible payment options.',
-          icon: <Wallet className="w-6 h-6 text-[#1FB6C9]" />,
+          icon: <Wallet className="w-6 h-6 text-[#216BAC]" />,
         }
       ]
     }
@@ -52,7 +52,7 @@ export default function WhyChooseUs() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Why Students Choose <span className="text-[#1FB6C9]">Azhka</span>
+            Why Students Choose <span className="text-[#216BAC]">Azhka</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We don't just teach courses. We build careers by combining high-end tech skills with professional communication and memory mastery.
@@ -71,7 +71,7 @@ export default function WhyChooseUs() {
                   {pillar.items.map((feature, index) => (
                     <div
                       key={index}
-                      className={`group flex items-start gap-4 p-5 rounded-xl transition-all duration-300 ${feature.highlight ? 'bg-teal-50 border-l-4 border-[#1FB6C9] shadow-sm' : 'hover:bg-gray-50 border-l-4 border-transparent hover:border-gray-200'}`}
+                      className={`group flex items-start gap-4 p-5 rounded-xl transition-all duration-300 ${feature.highlight ? 'bg-teal-50 border-l-4 border-[#216BAC] shadow-sm' : 'hover:bg-gray-50 border-l-4 border-transparent hover:border-gray-200'}`}
                     >
                       <div className="flex-shrink-0 mt-1">
                         {feature.icon}
@@ -91,7 +91,7 @@ export default function WhyChooseUs() {
             ))}
 
             <div className="pt-4 pl-5">
-              <Link href="#courses" className="text-[#1FB6C9] font-bold text-lg hover:text-[#0A4C59] flex items-center gap-2 transition-colors group">
+              <Link href="#courses" className="text-[#216BAC] font-bold text-lg hover:text-[#0A4C59] flex items-center gap-2 transition-colors group">
                 View Learning Paths <span className="transform group-hover:translate-x-1 transition-transform">→</span>
               </Link>
             </div>

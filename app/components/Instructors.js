@@ -101,20 +101,20 @@ export default function Instructors() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
         <div className="absolute bottom-4 left-4 right-4">
-          <span className="inline-block px-3 py-1 bg-[#1FB6C9] text-white text-xs font-bold uppercase tracking-wider rounded-full mb-2 shadow-sm">
+          <span className="inline-block px-3 py-1 bg-[#216BAC] text-white text-xs font-bold uppercase tracking-wider rounded-full mb-2 shadow-sm">
             {instructor.experience}
           </span>
         </div>
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-[#1FB6C9] transition-colors">
+        <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-[#216BAC] transition-colors">
           {instructor.name}
         </h3>
         <p className="text-sm font-bold text-gray-500 uppercase tracking-wide mb-3">
           {instructor.role}
         </p>
 
-        <p className="text-gray-600 mb-4 text-sm leading-relaxed border-l-2 border-[#1FB6C9] pl-3">
+        <p className="text-gray-600 mb-4 text-sm leading-relaxed border-l-2 border-[#216BAC] pl-3">
           {instructor.why}
         </p>
 
@@ -132,7 +132,7 @@ export default function Instructors() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Instructors Who Guide You From <br />
-            <span className="text-[#1FB6C9]">Basics to Career Skills</span>
+            <span className="text-[#216BAC]">Basics to Career Skills</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Industry experience • Practical teaching • Student-friendly approach
@@ -142,7 +142,7 @@ export default function Instructors() {
         {/* Technical Leaders */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-            <span className="w-8 h-1 bg-[#1FB6C9] rounded-full"></span>
+            <span className="w-8 h-1 bg-[#216BAC] rounded-full"></span>
             Advanced & Specialized Faculty
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

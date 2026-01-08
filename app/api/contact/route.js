@@ -32,7 +32,7 @@ export async function POST(req) {
       `,
             html: `
         <div style="font-family: sans-serif; padding: 20px; color: #333;">
-          <h2 style="color: #1FB6C9;">New Admission Inquiry</h2>
+          <h2 style="color: #216BAC;">New Admission Inquiry</h2>
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Phone:</strong> ${phone}</p>
           <p><strong>Course:</strong> ${course || 'Not specified'}</p>

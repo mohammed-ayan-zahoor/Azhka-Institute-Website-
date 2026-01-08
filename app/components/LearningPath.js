@@ -24,7 +24,7 @@ export default function LearningPath() {
             title: 'Career Support',
             description: 'Real projects, resume building & guidance',
             icon: <Rocket className="w-8 h-8 text-white" />,
-            color: 'bg-[#1FB6C9]',
+            color: 'bg-[#216BAC]',
         },
     ];
 

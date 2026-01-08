@@ -15,32 +15,32 @@ export default function Header() {
             <Image
               src="/logo.png"
               alt="Azhka Institute"
-              width={220}
-              height={80}
-              className="h-16 w-auto"
+              width={300}
+              height={170}
+              className="h-20 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <Link href="#home" className="text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#home" className="text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Home
             </Link>
-            <Link href="#courses" className="text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#courses" className="text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Courses
             </Link>
-            <Link href="#instructors" className="text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#instructors" className="text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Instructors
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#about" className="text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               About
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#contact" className="text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Contact
             </Link>
             <Link
               href="#contact"
-              className="bg-[#1FB6C9] text-white px-6 py-2.5 rounded-lg hover:bg-[#0A4C59] transition-colors font-medium"
+              className="bg-[#216BAC] text-white px-6 py-2.5 rounded-lg hover:bg-[#0A4C59] transition-colors font-medium"
             >
               Enroll Now
             </Link>
@@ -64,24 +64,24 @@ export default function Header() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 space-y-4">
-            <Link href="#home" className="block text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#home" className="block text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Home
             </Link>
-            <Link href="#courses" className="block text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#courses" className="block text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Courses
             </Link>
-            <Link href="#instructors" className="block text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#instructors" className="block text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Instructors
             </Link>
-            <Link href="#about" className="block text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#about" className="block text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               About
             </Link>
-            <Link href="#contact" className="block text-gray-700 hover:text-[#1FB6C9] transition-colors font-medium">
+            <Link href="#contact" className="block text-gray-700 hover:text-[#216BAC] transition-colors font-medium">
               Contact
             </Link>
             <Link
               href="#contact"
-              className="block bg-[#1FB6C9] text-white px-6 py-2.5 rounded-lg hover:bg-[#0A4C59] transition-colors font-medium text-center"
+              className="block bg-[#216BAC] text-white px-6 py-2.5 rounded-lg hover:bg-[#0A4C59] transition-colors font-medium text-center"
             >
               Enroll Now
             </Link>

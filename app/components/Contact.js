@@ -48,7 +48,7 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Make the <span className="text-[#1FB6C9]">Right Choice</span> for Your Career
+            Make the <span className="text-[#216BAC]">Right Choice</span> for Your Career
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We're happy to guide you about courses, fees, and batches. No pressure, just honest advice.
@@ -58,7 +58,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 
           {/* Right Column - Form (Prioritized for Mobile/Desktop Conversion) */}
-          <div className="order-1 lg:order-2 bg-white p-8 md:p-10 rounded-2xl shadow-xl border-t-4 border-[#1FB6C9] relative">
+          <div className="order-1 lg:order-2 bg-white p-8 md:p-10 rounded-2xl shadow-xl border-t-4 border-[#216BAC] relative">
             <div className="absolute top-0 right-0 transform translate-x-2 -translate-y-1/2 bg-yellow-100 text-yellow-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide border border-yellow-200">
               ⚠️ Limited seats per batch
             </div>
@@ -78,7 +78,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1FB6C9] focus:bg-white transition-colors"
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#216BAC] focus:bg-white transition-colors"
                   placeholder="Your full name"
                 />
               </div>
@@ -92,7 +92,7 @@ export default function Contact() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1FB6C9] focus:bg-white transition-colors"
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#216BAC] focus:bg-white transition-colors"
                   placeholder="+91 8055..."
                 />
               </div>
@@ -104,7 +104,7 @@ export default function Contact() {
                   name="course"
                   value={formData.course}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1FB6C9] focus:bg-white transition-colors appearance-none"
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#216BAC] focus:bg-white transition-colors appearance-none"
                 >
                   <option value="">Select a course</option>
                   <option value="DCA">Didploma in Computer Applications (Recommended)</option>
@@ -122,7 +122,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   rows="3"
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#1FB6C9] focus:bg-white transition-colors resize-none"
+                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#216BAC] focus:bg-white transition-colors resize-none"
                   placeholder="Any questions about fees or batches?"
                 ></textarea>
               </div>
@@ -131,7 +131,7 @@ export default function Contact() {
                 type="submit"
                 disabled={status === 'loading'}
                 className={`w-full text-white py-4 rounded-xl transition-all transform hover:-translate-y-1 font-bold text-lg shadow-lg flex items-center justify-center gap-2 ${status === 'loading' ? 'bg-gray-400 cursor-not-allowed' :
-                    status === 'success' ? 'bg-green-500' : 'bg-[#1FB6C9] hover:bg-[#0A4C59]'
+                  status === 'success' ? 'bg-green-500' : 'bg-[#216BAC] hover:bg-[#0A4C59]'
                   }`}
               >
                 {status === 'loading' ? 'Sending...' :
@@ -169,7 +169,7 @@ export default function Contact() {
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 space-y-6">
                 {/* Address */}
                 <div className="flex items-start gap-4">
-                  <div className="bg-teal-50 p-3 rounded-full text-[#1FB6C9]">
+                  <div className="bg-teal-50 p-3 rounded-full text-[#216BAC]">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
@@ -185,16 +185,16 @@ export default function Contact() {
 
                 {/* Phone */}
                 <div className="flex items-start gap-4">
-                  <div className="bg-teal-50 p-3 rounded-full text-[#1FB6C9]">
+                  <div className="bg-teal-50 p-3 rounded-full text-[#216BAC]">
                     <Phone className="w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900">Phone (Call or WhatsApp)</h4>
                     <div className="flex flex-col gap-1 mt-1 text-sm font-medium">
-                      <a href="tel:+918055117133" className="text-gray-600 hover:text-[#1FB6C9] transition-colors">
+                      <a href="tel:+918055117133" className="text-gray-600 hover:text-[#216BAC] transition-colors">
                         +91 8055117133
                       </a>
-                      <a href="tel:+919595216363" className="text-gray-600 hover:text-[#1FB6C9] transition-colors">
+                      <a href="tel:+919595216363" className="text-gray-600 hover:text-[#216BAC] transition-colors">
                         +91 9595216363
                       </a>
                     </div>
@@ -203,12 +203,12 @@ export default function Contact() {
 
                 {/* Email */}
                 <div className="flex items-start gap-4">
-                  <div className="bg-teal-50 p-3 rounded-full text-[#1FB6C9]">
+                  <div className="bg-teal-50 p-3 rounded-full text-[#216BAC]">
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900">Email</h4>
-                    <a href="mailto:office.azhka@gmail.com" className="text-gray-600 hover:text-[#1FB6C9] text-sm mt-1 block">
+                    <a href="mailto:office.azhka@gmail.com" className="text-gray-600 hover:text-[#216BAC] text-sm mt-1 block">
                       office.azhka@gmail.com
                     </a>
                     <span className="text-xs text-green-600 font-medium">We reply within 24 hours</span>
@@ -217,7 +217,7 @@ export default function Contact() {
 
                 {/* Hours */}
                 <div className="flex items-start gap-4">
-                  <div className="bg-teal-50 p-3 rounded-full text-[#1FB6C9]">
+                  <div className="bg-teal-50 p-3 rounded-full text-[#216BAC]">
                     <Clock className="w-6 h-6" />
                   </div>
                   <div>
