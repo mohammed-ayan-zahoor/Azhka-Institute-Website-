@@ -25,7 +25,7 @@ export default function Courses() {
       description: 'Comprehensive program covering programming fundamentals, database management, and system operations.',
       duration: '6 Months',
       level: 'Intermediate',
-      badge: '⭐ Most Popular',
+      badge: ' Most Popular',
       badgeColor: 'bg-yellow-100 text-yellow-800',
     },
     {
@@ -34,7 +34,7 @@ export default function Courses() {
       description: 'Advanced topics in software development, networking, and modern IT infrastructure management.',
       duration: '1 Year',
       level: 'Advanced',
-      badge: '🔥 Advanced Track',
+      badge: ' Advanced Track',
       badgeColor: 'bg-orange-100 text-orange-800',
     },
     {
@@ -43,7 +43,7 @@ export default function Courses() {
       description: 'Learn HTML, CSS, JavaScript, React, Node.js, and build professional websites from scratch.',
       duration: '6 Months',
       level: 'Professional',
-      badge: '🎯 Job-Oriented',
+      badge: ' Job-Oriented',
       badgeColor: 'bg-blue-100 text-blue-800',
     },
   ];
@@ -55,7 +55,7 @@ export default function Courses() {
       description: 'Master the art of fluent English communication. Focus on grammar, vocabulary, public speaking, and confidence building.',
       duration: '3 Months',
       level: 'All Levels',
-      badge: '🗣️ Fluency Focus',
+      badge: ' Fluency Focus',
       badgeColor: 'bg-purple-100 text-purple-800',
     },
     {
@@ -64,7 +64,7 @@ export default function Courses() {
       description: 'Unlock the potential of your brain. Learn advanced mnemonic techniques to memorize vast amounts of data with ease.',
       duration: '2 Months',
       level: 'Advanced',
-      badge: '🧠 Brain Power',
+      badge: ' Brain Power',
       badgeColor: 'bg-indigo-100 text-indigo-800',
     },
     {
@@ -73,7 +73,7 @@ export default function Courses() {
       description: 'Specifically designed for students. Master techniques for rapid information recall, exam success, and stress-free learning.',
       duration: '1 Month',
       level: 'Students',
-      badge: '🎓 Exam Ready',
+      badge: ' Exam Ready',
       badgeColor: 'bg-teal-100 text-teal-800',
     },
     {
@@ -82,7 +82,7 @@ export default function Courses() {
       description: 'Explore the world of robotics and drone technology. Learn to build, program, and operate drones with hands-on projects.',
       duration: '3 Months',
       level: 'Intermediate',
-      badge: '🤖 Tech Innovation',
+      badge: ' Tech Innovation',
       badgeColor: 'bg-cyan-100 text-cyan-800',
     },
   ];

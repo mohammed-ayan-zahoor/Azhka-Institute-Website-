@@ -25,14 +25,6 @@ export default function Instructors() {
       experience: '18 Years Professional Training',
       signal: 'Expert in Mnemonic Science',
       image: '/instructor7.jpg',
-    },
-    {
-      name: 'Altaf Shaikh',
-      role: 'PRO ( Public Relations Officer )',
-      why: 'Specializes in shaping public perception and building a positive brand image through effective communication.',
-      experience: '20 Years Experience',
-      signal: 'Incharge of overall Brand Marketing',
-      image: '/instructor66.jpg',
     }
   ];
 
