@@ -76,6 +76,15 @@ export default function Courses() {
       badge: '🎓 Exam Ready',
       badgeColor: 'bg-teal-100 text-teal-800',
     },
+    {
+      name: 'Robotics and Drones',
+      fullName: 'Robotics & Drone Technology',
+      description: 'Explore the world of robotics and drone technology. Learn to build, program, and operate drones with hands-on projects.',
+      duration: '3 Months',
+      level: 'Intermediate',
+      badge: '🤖 Tech Innovation',
+      badgeColor: 'bg-cyan-100 text-cyan-800',
+    },
   ];
 
   const CourseCard = ({ course }) => (

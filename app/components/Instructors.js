@@ -12,7 +12,7 @@ export default function Instructors() {
     },
     {
       name: 'Shaikh Zahoor Rasheed',
-      role: 'Artificial Intelligence & Advanced Computing',
+      role: 'CEO ( Chief Executive Officer )',
       why: 'Specializes in explaining complex topics in simple, practical ways',
       experience: '30+ Years Teaching',
       signal: 'Mentors final year projects',
@@ -25,6 +25,14 @@ export default function Instructors() {
       experience: '18 Years Professional Training',
       signal: 'Expert in Mnemonic Science',
       image: '/instructor7.jpg',
+    },
+    {
+      name: 'Altaf Shaikh',
+      role: 'PRO ( Public Relations Officer )',
+      why: 'Specializes in shaping public perception and building a positive brand image through effective communication.',
+      experience: '20 Years Experience',
+      signal: 'Incharge of overall Brand Marketing',
+      image: '/instructor66.jpg',
     }
   ];
 
@@ -66,7 +74,7 @@ export default function Instructors() {
   const supportTeam = [
     {
       name: 'Danish Shaikh',
-      role: 'Student Success Manager',
+      role: 'HR Admin Manager',
       why: 'Ensures every student gets the support they need',
       experience: 'Student Mentorship Experience',
       signal: 'Guides career planning',
